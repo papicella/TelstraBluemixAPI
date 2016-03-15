@@ -1,0 +1,8 @@
+
+create ORG ->
+
+curl http://localhost:8080/apis/create/apples-org-1 | python -m json.tool
+
+delete ORG ->
+
+curl http://localhost:8080/apis/delete/apples-org-1 | python -m json.tool
